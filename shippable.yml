@@ -71,7 +71,7 @@ jobs:
             - psql --version
             - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
             - elasticsearch --version
-            - memcached --version
+            - memcached -version
             - riak version
             - sudo -i -u couchdb /opt/couchdb/bin/couchdb 2>&1 >/dev/null &
             - sleep 5

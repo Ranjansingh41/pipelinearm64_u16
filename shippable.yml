@@ -25,7 +25,6 @@ jobs:
             - eb --version
             - gcloud version
             - kubectl version --client
-            - doctl version
             - ansible --version
             - pip show boto
             - pip show boto3

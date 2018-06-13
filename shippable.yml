@@ -24,7 +24,6 @@ jobs:
             - aws --version
             - eb --version
             - gcloud version
-            - git lfs version
             - kubectl version --client
             - kops version
             - helm version --client

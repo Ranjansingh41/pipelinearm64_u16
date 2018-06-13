@@ -83,4 +83,30 @@ jobs:
    steps:
     - IN: aarch64_u16servicesCI_ciRepo
     - IN: aarch64_u16all
-          
+  
+ - name: pipelineaarch64_u16nodall_runCI
+   type: runCI
+   steps:
+    - IN: pipelineaarch64_u16nodall_ciRepo 
+    - IN: aarch64_u16servicesCI_runCI
+ 
+ - name: pipelineaarch64_u16javall_runCI
+   type: runCI
+   steps:
+    - IN: pipelineaarch64_u16javall_ciRepo
+    - IN: aarch64_u16servicesCI_runCI
+    
+ - name: pipelineaarch64_u16pytall_runCI
+   type: runCI
+   steps:
+    - IN: pipelineaarch64_u16pytall_ciRepo
+    - IN: aarch64_u16servicesCI_runCI
+ 
+ - name: piplineaarch64_u16cppall_runCI
+   type: runCI
+   steps:
+    - IN: piplineaarch64_u16cppall_ciRepo
+    - IN: aarch64_u16servicesCI_runCI
+
+ 
+    

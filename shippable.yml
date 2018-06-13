@@ -1,6 +1,11 @@
 jobs:
  - name: aarch64_u16
    type: runSh
+   
+   
+runtime:
+  nodePool: custom__aarch64__Ubuntu_16_04
+
    steps:
      - TASK:
          runtime:

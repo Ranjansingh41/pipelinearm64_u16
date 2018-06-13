@@ -3,7 +3,7 @@ jobs:
    type: runSh
  
    runtime:
-    nodePool: custom__aarch64__Ubuntu_16_04
+    nodePool: custom__Arm64__Ubuntu_16_04
 
    steps:
      - TASK:

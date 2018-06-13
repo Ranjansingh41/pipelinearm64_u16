@@ -77,4 +77,10 @@ jobs:
             - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
             - sqlite3 --version
             - couchdb -V
+            
+ - name: aarch64_u16servicesCI_runCI
+   type: runCI
+   steps:
+    - IN: aarch64_u16servicesCI_ciRepo
+    - IN: aarch64_u16all
           

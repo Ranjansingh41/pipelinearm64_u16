@@ -23,7 +23,6 @@ jobs:
             - git --version
             - aws --version
             - eb --version
-            - az --version
             - gcloud version
             - git lfs version
             - kubectl version --client

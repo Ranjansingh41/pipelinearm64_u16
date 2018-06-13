@@ -40,7 +40,7 @@ jobs:
    type: runSh
    
    runtime:
-   nodePool: Arm64
+    nodePool: Arm64
    
    steps:
      - IN: aarch64_u16

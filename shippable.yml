@@ -52,8 +52,8 @@ jobs:
          script:
             - shippable_service couchdb start
             - shippable_service couchdb stop
-            #- shippable_service elasticsearch start
-            #- shippable_service elasticsearch stop
+            - shippable_service elasticsearch start
+            - shippable_service elasticsearch stop
             - shippable_service memcached start
             - shippable_service memcached stop
             - shippable_service mongodb start

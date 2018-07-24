@@ -34,7 +34,7 @@ jobs:
             - packer --version
             - jq --version
             - openstack --version
-            - az --version
+            
 
             
                   

@@ -10,7 +10,7 @@ jobs:
          runtime:
            options:
              imageName: "drydock/aarch64_u16"
-             imageTag: master
+             imageTag: v6.7.4
          script:
             - java -version
             - nodejs --version

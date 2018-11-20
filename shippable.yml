@@ -77,7 +77,7 @@ jobs:
             - /var/lib/neo4j/bin/neo4j version
             - psql --version
             - dpkg -s rabbitmq-server | grep Version
-            - java -jar /usr/local/selenium/selenium-server-standalone-3.14.0.jar --version
+            - java -jar /usr/local/selenium/selenium-server-standalone-3.141.5.jar --version
             - sqlite3 --version
             - couchdb -V
             - redis-server --version
